@@ -1,0 +1,25 @@
+.container{
+    text-align: center;
+    margin-top: 70px;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 5px;
+}
+
+.description{
+    font-weight: 700;
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.small_link{
+    font-size: 12px;    
+}
