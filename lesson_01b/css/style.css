@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: right;
+}
+
+body {
+    background-color: black;
+    color: white;
+    border: 10px solid red;
+}
