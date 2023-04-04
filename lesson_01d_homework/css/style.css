@@ -1,0 +1,26 @@
+.container {
+    margin: 70px auto 0;
+    max-width: 80%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.message {
+    font-weight: 700;
+    font-size: 24px;
+    font-style: italic;
+    margin: 10px 0 40px;
+}
+
+.social-media {
+    font-size: 12px;
+}
