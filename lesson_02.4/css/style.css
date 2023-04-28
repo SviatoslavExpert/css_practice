@@ -1,0 +1,112 @@
+/* My normalize */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a[class] {
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+/*  wrapper  */
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    /*  horizontal centering  */
+}
+
+.title {
+    text-align: center;
+}
+
+.text-1 {
+    font-size: 20px;
+    background: #ccc;
+    width: 500px;
+    padding: 50px;
+    border: 20px solid #c4d10b;
+    box-sizing: border-box;
+    /* It is ussually placed at the beginning of a css file
+    to be applied to all elements;
+    it means: 
+    element width = element + padding + border;
+    */
+    height: 500px;
+    overflow: hidden;
+    /* it doesn't allow the content to go
+    beyond the element  */
+}
+
+.title-2 {
+    margin-top: 100px;
+    /*  vertical margin collapse  */
+}
+
+.text-2 {
+    font-size: 18px;
+    background: #ccc;
+}
+
+.text-3 {
+    font-style: italic;
+}
+
+.text-4 {
+    text-align: right;
+    font-size: 14px;
+}
